@@ -831,10 +831,7 @@ footer .wrapper { text-align: center; }
   .hero { text-align: left; }
 
   .hero .container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
     align-items: center;
-    gap: 50px;
   }
 
   .hero .btn-group {
@@ -902,9 +899,6 @@ footer .wrapper { text-align: center; }
    */
 
   .main .container {
-    display: grid;
-    grid-template-columns: 5fr 2fr;
-    gap: 60px;
   }
 
 
