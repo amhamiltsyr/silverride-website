@@ -194,11 +194,10 @@ html {
 }
 
 .hero .btn-group {
-  display:         flex;
-  justify-content: center;
-  flex-wrap:       wrap;
-  gap: 15px;
-  text-align: center;
+  display: flex;
+  justify-content: start;
+  gap: 30px;
+  margin-top: 2rem; /* Optional: adds spacing from content above */
 }
 
 .hero .right { display: none; }
