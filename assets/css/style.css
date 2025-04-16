@@ -189,9 +189,8 @@ html {
 \*-----------------------------------*/
 
 .container {
-  width: 100%;
-  max-width: none; /* removes the constraint */
   margin-inline: auto;
+  margin: auto; /* fallback for margin-inline */
   padding: 0 15px;
 }
 
@@ -727,7 +726,7 @@ footer .wrapper { text-align: center; }
    * REUSED STYLE 
    */
 
-  .container { max-width: 90vw; }
+  .container {  }
 
 }
 
