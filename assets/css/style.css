@@ -839,12 +839,6 @@ footer .wrapper { text-align: center; }
     gap: 30px;
   }
 
-  .hero .right {
-    position: relative;
-    display:         flex;
-    justify-content: center;
-    align-items:     center;
-  }
 
   .hero .pattern-bg {
     position: absolute;
