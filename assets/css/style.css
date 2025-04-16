@@ -189,9 +189,9 @@ html {
 \*-----------------------------------*/
 
 .container {
-  margin-inline: auto;
-  margin: auto; /* fallback for margin-inline */
+  width: 100%;
   padding: 0 15px;
+  margin: 0;
 }
 
 .btn {
@@ -726,7 +726,7 @@ footer .wrapper { text-align: center; }
    * REUSED STYLE 
    */
 
-  .container { max-width: 800px; }
+  .container { max-width: None; }
 
 }
 
@@ -757,7 +757,7 @@ footer .wrapper { text-align: center; }
    * REUSED STYLE 
    */
 
-  .container { max-width: 1150px; }
+  .container { max-width: None; }
 
 
 
@@ -1057,8 +1057,7 @@ footer .wrapper { text-align: center; }
   }
 
   .newsletter .btn-primary {
-    margin-inline: auto;
-    margin: auto; /* fallback for margin-inline */
+    margin: 0; /* fallback for margin-inline */
   }
 
 
